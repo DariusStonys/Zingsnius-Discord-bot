@@ -1,0 +1,16 @@
+{
+  "name": "zingsnius",
+  "version": "1.0.0",
+  "description": "Visus žingsniečius mylinčio boto scriptas",
+  "main": "bot.js",
+  "author": "Darius Stonys",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
