@@ -5,7 +5,8 @@
   "main": "bot.js",
   "author": "Darius Stonys",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+	"start": "node server.js"
   },
   "dependencies": {
     "discord.js": "^11.6.4"
