@@ -17,5 +17,15 @@
   "engines": {
     "node": "12.16.1",
     "npm": "6.14.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariusStonys/Zingsnius-Discord-bot.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariusStonys/Zingsnius-Discord-bot/issues"
+  },
+  "homepage": "https://github.com/DariusStonys/Zingsnius-Discord-bot#readme"
 }
