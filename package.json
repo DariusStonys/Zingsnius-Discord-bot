@@ -9,7 +9,9 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^11.6.4"
+    "discord.js": "^11.6.4",
+    "set-value": ">=4.0.1",
+    "glob-parent": ">=5.1.2"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"

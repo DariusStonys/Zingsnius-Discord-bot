@@ -1,0 +1,18 @@
+readline.question(`What's your command?`, (adminInput) => {
+    if (adminInput === "post") {
+        
+        //guild.channels.get("709086433100693615").send(`${guild.roles.find(x => x.name === "Moderatorius")}`);
+        guild.channels.get("703654574212382740").send(`@everyone`);
+
+        const embed = new Discord.RichEmbed()
+        .setTitle("Sveiki, žingsniečiai! 👋")
+        .setDescription("Mano vardas **Žingsnius**. Malonu susipažinti! :hugging:\nNorėčiau prisijungti prie jūsų bendruomenės ir susidraugauti. Tačiau esu visai jaunas botas ir šiek tiek *shy*, todėl turėsiu dar truputį paaugti, kad galėčiau pilnai dirbti Žingsniečių būstinėje. Ar padėsite man užaugti? 💕\n\nJeigu norite tapti mano testuotojais ir padėti atidžiai ieškoti klaidas, pažymėkite 🖥️ reakciją ir artimu metu susisieksiu 👌")
+        .setFooter("Iki greito pasimatymo!")
+        .setColor("#38b6ff");
+    
+        guild.channels.get("703654574212382740").send(embed).then(sentEmbed => {
+            sentEmbed.react("🖥️");
+        });
+    }
+    readline.close()
+});
