@@ -12,10 +12,7 @@
     "discord.js": "^11.6.4"    
   },
   "devDependencies": {
-    "nodemon": "^1.19.4",
-    "ansi-regex": ">=5.0.1",
-    "set-value": ">=4.0.1",
-    "glob-parent": ">=5.1.2"
+    "nodemon": "^1.19.4"
   },
   "engines": {
     "node": "12.16.1",
