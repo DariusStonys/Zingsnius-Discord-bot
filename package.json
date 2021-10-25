@@ -6,10 +6,10 @@
   "author": "Darius Stonys",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "^11.6.4"    
+    "discord.js": "^11.6.4"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
