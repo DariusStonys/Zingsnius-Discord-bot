@@ -7,7 +7,13 @@ const readline = require('readline').createInterface({
     output: process.stdout
   })
 const Discord = require('discord.js');
-const { adminID, guildID, prefix, token } = require('./config.json');
+
+//const { adminID, guildID, prefix, token } = require('./config.json');
+const token = process.env.token;
+const prefix = process.env.prefix;
+const adminID = process.env.adminID;
+const guildID = process.env.guildID;
+
 const botReplies = require('./bot-replies.json');
 const { error } = require('console');
 
@@ -21,9 +27,8 @@ model.client = client;
 model.token = token;
 model.countGoodbyes = model.goodbyes.length;
 
-const init = async () => {
-
 // Add Commands to Bot
+const init = async () => {
 client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync(__dirname + '/commands/').filter(file => file.endsWith('.js'));
 
