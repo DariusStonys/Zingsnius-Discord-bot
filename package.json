@@ -6,7 +6,7 @@
   "author": "Darius Stonys",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "start": "node launchBot.js"
   },
   "dependencies": {
     "discord.js": "^11.6.4"
