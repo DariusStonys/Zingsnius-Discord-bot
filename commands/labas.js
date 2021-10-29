@@ -17,4 +17,4 @@ module.exports = {
 	}
 };
 
-// Note - sutvarkyti šią komandą į general nario prisijungimo prie serverio listenerį
+// TODO - sutvarkyti šią komandą į general nario prisijungimo prie serverio listenerį

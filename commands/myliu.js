@@ -31,4 +31,4 @@ module.exports = {
 	}
 };
 
-// NOTE - add random heart emoji
+// TODO - add random heart emoji

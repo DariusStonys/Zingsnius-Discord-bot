@@ -5,4 +5,4 @@ module.exports = {
 	}
 };
 
-// Note - galima pridėti didžiausio šiuo metu prisijungusio skyriaus (rolės) narių sk.
+// TODO - galima pridėti didžiausio šiuo metu prisijungusio skyriaus (rolės) narių sk.

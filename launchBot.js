@@ -85,7 +85,7 @@ const init = async () => {
           } 
 
           // Set Model parameters
-          //model.isModerator = message.member.roles.find(x => x.name === "Moderatorius") !== 'undefined';
+          model.isModerator = message.member.roles.find(x => x.name === "Moderatorius") !== 'undefined';
 
           try {
               command.execute(message, args, model);
